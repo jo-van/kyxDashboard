@@ -1,8 +1,1 @@
-{
-  "crons": [
-    {
-      "path": "/api/rotate-code",
-      "schedule": "0 */6 * * *"
-    }
-  ]
-}
+{}
