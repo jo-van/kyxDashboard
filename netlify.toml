@@ -1,0 +1,13 @@
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NEXT_PUBLIC_SUPABASE_URL = "YOUR_SUPABASE_URL_HERE"
+  NEXT_PUBLIC_SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY_HERE"
+  NEXT_PUBLIC_GEOFENCE_LAT = "38.2527"
+  NEXT_PUBLIC_GEOFENCE_LNG = "-85.7585"
+  NEXT_PUBLIC_GEOFENCE_RADIUS = "50"
